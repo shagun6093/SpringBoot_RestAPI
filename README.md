@@ -3,15 +3,6 @@
 
 This contains the REST API where all CRUD operations are performed on an employee database. The tech stack used includes Spring Boot and MySQL. You can test this API on Postman.
 
-Operations 	API Path or URLs	What Action will it do ?
-POST	/api/employees	Create a new Employee
-GET	/api/employees	Retrieve all Employees
-GET	/api/employee/:id	Retrieve a Employee by :empid
-PUT	/api/employee/:id	Update a Employee by :empid
-DELETE	/api/employee/:id	Delete a Employee by :empid
-DELETE	/api/employees	Delete all Employees
-GET	/api/employees?city=[keyword]	Find all Employee based on Employee City
-GET	/api/employees?empAge=[keyword]	Find all Employe whose age > empAge
 
 ## 
 
